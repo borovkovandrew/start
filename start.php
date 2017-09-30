@@ -1,5 +1,5 @@
 <?php
-    mb_internal_encoding("UTF-8");
+    /*mb_internal_encoding ("UTF-8");*/
 
     error_reporting (E_ALL);
     ini_set ("display_errors", 1);
@@ -10,7 +10,7 @@
     spl_autoload_extensions ("_class.php");
     spl_autoload_register ();
 
-    define ("DIR_TMPL", "/tmpl/");
+    define ("DIR_TMPL", "tmpl/");
     define ("MAIN_LAYOUT", "main");
     
 ?>

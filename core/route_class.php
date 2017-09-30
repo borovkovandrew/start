@@ -14,8 +14,8 @@ class Route {
         $action_name = "action".$action_name;
 
         $controller = new $controller_name ();
-        if (method_exists ($controller, $action_name)) $controller->$action_name();
-        else $controller->action404();    
+        if (method_exists ($controller, $action_name)) $controller->$action_name ();
+        else $controller->action404 ();
     }
 
 }
